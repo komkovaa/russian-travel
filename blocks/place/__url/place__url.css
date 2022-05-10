@@ -9,3 +9,10 @@
     padding:0;
     margin: 0;
 }
+
+@media screen and (max-width: 614px) {
+    .place__url {
+        padding-top: 32px;
+        padding-bottom: 12px;
+    }    
+}

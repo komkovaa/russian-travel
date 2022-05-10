@@ -8,3 +8,15 @@
 .place:first-child {
     padding: 0;
 }
+
+@media screen and (max-width: 614px) {
+    .place {
+        padding-top: 50px;
+    } 
+}
+
+@media screen and (max-width: 614px) {
+    .place:first-child {
+        padding: 0;
+    }
+}

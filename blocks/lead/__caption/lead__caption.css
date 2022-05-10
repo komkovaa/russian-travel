@@ -8,3 +8,17 @@
     margin: 0;
     padding-top: 8px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        padding-left: calc((100% - 928px)/2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        padding-left: 0;
+        width: 288px;
+        margin: 0 auto;
+    }
+}

@@ -9,8 +9,16 @@
     opacity: 0.3;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .lead__subtitle {
-        padding-top: 16px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 696px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
     }
 }

@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 948px) {
     .lead__image {
         max-width: 100%;
         object-fit: cover;

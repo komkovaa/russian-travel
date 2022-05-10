@@ -10,3 +10,30 @@
 .place__paragraph:last-child {
     padding: 0;
 }
+
+.place__paragraph[title] {
+    opacity: .2;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph[title] {
+        opacity: 1;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        padding-top: 32px;
+        padding-bottom: 25px;
+        font-size: 16px;
+        max-width: 288px;
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph:last-child {
+        padding-top: 0;
+        padding-bottom: 0;
+    }    
+}
