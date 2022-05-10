@@ -1,0 +1,10 @@
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__link:hover {
+    opacity: .8;
+    cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png), pointer;
+    transition: .8s;
+}
