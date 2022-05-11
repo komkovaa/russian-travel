@@ -5,6 +5,8 @@
     line-height: 28px;
     list-style: none;
     margin-top: 18px;
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 614px) {
