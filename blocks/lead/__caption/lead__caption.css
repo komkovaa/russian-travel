@@ -15,10 +15,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
-        padding-left: 0;
-        width: 288px;
-        margin: 0 auto;
+        padding-left: calc((100% - 720px)/2);
+    }
+}
+
+@media screen and (max-width: 614px) {
+    .lead__caption {
+        padding-left: calc((100% - 288px)/2);
     }
 }
