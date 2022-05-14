@@ -22,14 +22,13 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: #000;
+    background: #2A2C2F;
     opacity: .3;
     transition: .8s;
 }
 
 .cover__overlay:hover::before {
     opacity: .8;
-    background: #2A2C2F;
     cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png), pointer;
 }
 
@@ -48,6 +47,5 @@
 @media screen and (max-width: 614px) {
     .cover__overlay {
         min-height: 200px;
-        max-width: 100%;
     } 
 }

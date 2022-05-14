@@ -36,6 +36,6 @@
     .photo {
         grid-template-columns: 288px;
         grid-template-rows: repeat(12, 1fr);
-        justify-content: center;
+        padding-top: 64px;
     }    
 }

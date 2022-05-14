@@ -1,12 +1,11 @@
 # Проект: Путешествие по России
 
+Проект рассказывает о бескрайних просторах нашей родины, местах и объектах, которые стоит посетить.
 
 **Технологии в проекте**
 
 Flex-box, Grid Layout, медиа-запросы,
 
 
-**Figma**
-
-* [Ссылка проекта на GitHub](git@github.com:komkovaa/russian-travel.git)
+* [Ссылка проекта на GitHub](https://github.com/komkovaa/russian-travel)
 

@@ -6,3 +6,10 @@
     line-height: 18px;
 }
 
+
+@media screen and (max-width: 614px) {
+    .footer__item {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

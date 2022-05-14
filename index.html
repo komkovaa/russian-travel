@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="путешествия, Россия">
     <meta name="description" content="путешествия по России">
-    <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./vender/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -28,8 +28,10 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="lead__image" src="./images/lead-polka.jpg" alt="Полка в поезде">
-                <p class="lead__caption">ваша полка — верхняя</p>
+                <figure class="lead__figure">
+                    <img class="lead__image" src="./images/lead-polka.jpg" alt="Полка в поезде">
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -41,11 +43,13 @@
                     в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                     интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__item">Часовых поясов 11</li>
-                    <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__item">Природных заповедников 105</li>
-                    <li class="intro__item">Аэропортов 241</li>
+                    <li class="intro__item">Часовых поясов <span class="intro__quantity">11</span></li>
+                    <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__quantity">12</span>
+                    </li>
+                    <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__quantity">16</span>
+                    </li>
+                    <li class="intro__item">Природных заповедников <span class="intro__quantity">105</span></li>
+                    <li class="intro__item">Аэропортов <span class="intro__quantity">241</span></li>
                 </ul>
             </section>
             <section class="photo">
@@ -80,8 +84,7 @@
                                     горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн
                                     Балтийского
                                     моря с другой. Уникальная природная зона на краю российского анклава.</p>
-                                <p class="place__paragraph" title="Балтийская коса">На этом Калининградская область не заканчивается. Для
-                                    путешественника и исследователя там же по соседству — самая западная точка России,
+                                <p class="place__paragraph">На этом Калининградская область не путешественника и исследователя там же по соседству — самая западная точка России,
                                     Балтийская коса, — и немецкое наследие россыпи небольших приморских городов.
                                     Атмосфера
                                     здешних мест исключает суету, окуная в спокойствие природы и запах стального,
@@ -212,13 +215,20 @@
             </section>
         </main>
         <footer class="footer">
-            <ul class="footer__list">
-                <li class="footer__item"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
-                <li class="footer__item"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
-                <li class="footer__item"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
-                <li class="footer__item"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
-                <li class="footer__item"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
-            </ul>
+            <nav class="menu">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="https://yandex.ru/maps" target="_blank"
+                            class="footer__link">Карты</a></li>
+                    <li class="footer__item"><a href="https://yandex.ru/pogoda" target="_blank"
+                            class="footer__link">Погода</a></li>
+                    <li class="footer__item"><a href="https://rasp.yandex.ru" target="_blank"
+                            class="footer__link">Расписание</a></li>
+                    <li class="footer__item"><a href="https://calendar.yandex.ru" target="_blank"
+                            class="footer__link">Календарь</a></li>
+                    <li class="footer__item"><a href="https://travel.yandex.ru" target="_blank"
+                            class="footer__link">Путешествия</a></li>
+                </ul>
+            </nav>
             <p class="footer__author">&copy; 2022. Анастасия Комкова</p>
         </footer>
     </div>
