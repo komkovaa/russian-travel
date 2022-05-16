@@ -4,7 +4,14 @@
     line-height: 100px;
     max-width: 720px;
     margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        padding: 0 24px;
+    }
 }
 
 @media screen and (max-width: 696px) {
@@ -12,5 +19,6 @@
         max-width: 288px;
         font-size: 40px;
         line-height: 44px;
+        padding: 0 16px;
     }
 }

@@ -4,36 +4,40 @@
     font-size: 18px;
     line-height: 163%;
     margin: 0;
-    padding: 0 0 26px;
+    padding: 26px 0 0;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraph:nth-child(1) {
     padding: 0;
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
-        padding-bottom: 25px;
+        padding-top: 25px;
         font-size: 16px;
-        max-width: 288px;
+        max-width: 352px;
         margin: 0 auto;
     }    
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph:nth-child(2) {
-        padding-bottom: 0;
+    .place__paragraph:nth-child(1) {
+        padding-top: 0;
     }    
 }
 
 @media screen and (max-width: 614px) {
     .place__paragraph {
-        padding-top: 32px;
+        padding-top:25px;
+        padding-left: 16px;
+        padding-right: 16px;
     }    
 }
 
 @media screen and (max-width: 614px) {
-    .place__paragraph:nth-child(2) {
-        padding-top: 0;
+    .place__paragraph:nth-child(1) {
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
     }    
 }
