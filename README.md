@@ -7,5 +7,5 @@
 Flex-box, Grid Layout, медиа-запросы,
 
 
-* [Ссылка проекта на GitHub](https://github.com/komkovaa/russian-travel)
+* [Путешествие по России](https://komkovaa.github.io/russian-travel/)
 
