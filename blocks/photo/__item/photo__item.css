@@ -1,8 +1,9 @@
 .photo__item {
-    max-width: 284px;
+    max-width: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width: 1214px) {
+/*@media screen and (max-width: 1214px) {
     .photo__item {
         max-width: 300px;
     }    
@@ -18,4 +19,4 @@
     .photo__item {
         max-width: 288px;
     }    
-}
+}*/

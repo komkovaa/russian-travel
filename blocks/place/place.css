@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 955px) {
     .place {
-        padding-top: 50px;
+        padding-top: 73px;
     } 
 }
 
@@ -19,10 +19,4 @@
     .place {
         padding-top: 50px;
     } 
-}
-
-@media screen and (max-width: 614px) {
-    .place:first-child {
-        padding: 0;
-    }
 }

@@ -22,6 +22,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         max-width: 720px;
+        padding: 88px 24px 0;
+        gap: 16px;
     }    
 }
 
@@ -34,8 +36,9 @@
 
 @media screen and (max-width: 605px) {
     .photo {
-        grid-template-columns: 288px;
+        grid-template-columns: 100%;
         grid-template-rows: repeat(12, 1fr);
-        padding-top: 64px;
+        padding: 64px 16px 0;
+        gap: 12px;
     }    
 }
